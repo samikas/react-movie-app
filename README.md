@@ -17,3 +17,10 @@ Run the app:
 ### `npm start`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Future improvements
+
+* Add movie data to Local Storage on first visit
+* Testing
+* Search for movies with title
+* A page for viewing selected movie with more info
