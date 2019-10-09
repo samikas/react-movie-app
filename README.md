@@ -1,4 +1,4 @@
-# React movie API-app
+# React movie API App
 
 A responsive React app made to display movie data from themoviedb.
 
