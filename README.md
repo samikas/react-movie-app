@@ -1,5 +1,5 @@
 # React movie API-app
-§
+
 A responsive React app made to display movie data from themoviedb.
 
 ### Link to the app
