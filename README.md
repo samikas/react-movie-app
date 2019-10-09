@@ -1,5 +1,6 @@
-# react-movie-app
-A responsive React app made to display movie data from themoviedb
+# React movie API-app
+§
+A responsive React app made to display movie data from themoviedb.
 
 ### Link to the app
 [https://samikas.github.io/react-movie-app/](https://samikas.github.io/react-movie-app/)
