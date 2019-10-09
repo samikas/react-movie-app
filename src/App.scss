@@ -9,16 +9,16 @@ body {
   background: rgba(15, 15, 15, 0.945);
   width: 100%;
   padding: 0.5rem 0;
-}
 
-a {
-  color: white;
-  text-decoration: none;
-  margin-right: 0.5rem;
-
-  &:hover {
+  a {
+    color: white;
     text-decoration: none;
-    color: grey;
+    margin-right: 0.5rem;
+
+    &:hover {
+      text-decoration: none;
+      color: grey;
+    }
   }
 }
 
@@ -54,11 +54,16 @@ a {
   position: relative;
   top: 4rem;
   justify-content: center;
+
+  § a {
+    width: auto;
+    height: auto;
+  }
 }
 
 .movie {
   position: relative;
-  width: 30%;
+  width: 95%;
   margin: 0.5rem;
   display: flex;
   z-index: 0;
@@ -91,12 +96,6 @@ a {
   }
 }
 
-@media only screen and (min-width: 850px) {
-  .movie {
-    width: 23%;
-  }
-}
-
 /* Responsive styles */
 @media only screen and (max-width: 720px) {
   .form {
@@ -105,10 +104,6 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-  .movie {
-    width: 45%;
-  }
-
   .movie-list {
     top: 3rem;
   }
@@ -123,7 +118,7 @@ a {
     justify-content: right;
     position: absolute;
     text-align: right;
-    right: -10rem;
+    right: -12rem;
     top: 0;
     flex-direction: column;
     background: rgb(15, 15, 15);
@@ -136,11 +131,16 @@ a {
     a:first-of-type {
       margin-top: 2rem;
     }
+
+    a {
+      margin-bottom: 0.4rem;
+      font-size: 1.3rem;
+    }
   }
 
   .close-menu-icon {
     position: absolute;
-    right: 0;
+    right: 0.5rem;
     top: 0.5rem;
   }
 
@@ -150,7 +150,13 @@ a {
 }
 
 @media only screen and (max-width: 350px) {
-  .movie {
-    width: 95%;
+  .title-end {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 175px) {
+  .site-title {
+    display: none;
   }
 }
