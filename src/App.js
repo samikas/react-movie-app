@@ -44,7 +44,7 @@ class App extends React.Component {
       <BrowserRouter>
         <div className="App">
           <div className="navi-wrapper">
-            <h3 className="site-title">Movie app</h3>
+            <h3 className="site-title">Movie <span className="title-end">app</span></h3>
             <FontAwesomeIcon onClick={this.addActiveClass} className="menu-icon" icon={faBars}/>
             <div className={`navi-links ${this.state.active ? 'menu-active': ''}`}>
               <FontAwesomeIcon onClick={this.addActiveClass} className="close-menu-icon" icon={faTimes}/>
