@@ -11,6 +11,9 @@ A responsive React app made to display movie data from themoviedb.
 
 ## Running the app
 
+Get an API key from Themoviedb [https://developers.themoviedb.org/](https://developers.themoviedb.org/)
+
+
 Install dependencies:
 ### `npm install`
 
